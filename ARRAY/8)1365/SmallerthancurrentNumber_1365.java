@@ -22,7 +22,7 @@ public class SmallerthancurrentNumber_1365
             int count=0;
             for(int j=0;j<nums.length;j++)
             {
-                if(nums[i]>nums[j]) // checks if current element is greater than other elements 
+                if(nums[i]>nums[j]) // checks if current element is greater than other elements
                 {
                     count++;
                 }
