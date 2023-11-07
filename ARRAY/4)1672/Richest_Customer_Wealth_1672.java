@@ -21,16 +21,16 @@ public class Richest_Customer_Wealth_1672
     }
     public static int maximumWealth(int[][] accounts)
     {
-        int max=0;
+        int max=0; //stores maximum sum of j elements i.e sum of wealth
         for(int i=0;i<accounts.length;i++)
         {
             int sum=0;
             for(int j=0;j<accounts[i].length;j++)
             {
-                sum=sum+accounts[i][j];
+                sum=sum+accounts[i][j];//sum of j elements i.e wealth
             }
             if(sum>max)
-                max=sum;
+                max=sum; //updates maximum wealth
         }
         return max;
     }
